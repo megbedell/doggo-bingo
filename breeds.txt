@@ -1,0 +1,138 @@
+Afghan Hound
+Cocker Spaniel
+Newfoundland
+Akita
+Collie
+Norfolk Terrier
+Alaskan Klee Kai
+Dachshund
+Norrbottenspets
+American Eskimo Dog
+Dalmatian
+Norwegian Buhund
+American Staffordshire Terrier
+Dandie Dinmont Terrier
+Norwich Terrier
+Australian Cattle Dog
+Doberman Pinscher
+Old English Sheepdog
+Australian Shepherd
+English Cocker Spaniel
+Otterhound
+Barbet
+English Setter
+Parson Russell Terrier
+Basenji
+English Toy Spaniel
+Pekingese
+Basset Hound
+Field Spaniel
+Pembroke Welsh Corgi
+Beagle
+Finnish Laphund
+Peruvian Inca Orchid
+Bearded Collie
+Flat-Coated Retriever
+Petit Basset Griffon Vendeen
+Beauceron
+French Bulldog
+Pharoah Hound
+Bedlington Terrier
+German Shepherd Dog
+Pomeranian
+Belgian Tervuren
+German Shorthaired Pointer
+Poodle
+Bergamasco Sheepdog
+Giant Schnauzer
+Portuguese Podengo Pequeno
+Berger Picard
+Glen of Imaal Terrier
+Portuguese Water Dog
+Bernese Mountain Dog
+Golden Retreiver
+Pug
+Bichon Frise
+Gordon Setter
+Pumi
+Biewer Terrier
+Grand Basset Griffon Vendeen
+Rhodesian Ridgeback
+Black Russian Terrier
+Greater Swiss Mountain Dog
+Rottweiler
+Bloodhound
+Havanese
+Saint Bernard
+Bolognese
+Ibizan Hound
+Saluki
+Border Collie
+Icelandic Sheepdog
+Schipperke
+Border Terrier
+Irish Red and White Setter
+Scottish Deerhound
+Borzoi
+Irish Setter
+Scottish Terrier
+Boston Terrier
+Irish Water Spaniel
+Sealyham Terrier
+Bouvier des Flandres
+Italian Greyhound Club
+Shetland Sheepdog
+Boxer
+Kishu Ken
+Siberian Husky
+Briard
+Komondor
+Silky Terrier
+Brittany
+Kromfohrländer
+Skye Terrier
+Brussels Griffon
+Kuvasz
+Smooth Fox Terrier
+Bull Terrier
+Labrador Retriever
+Spinone Italiano
+Bulldog
+Lagotto Romagnolo
+Staffordshire Bull Terrier
+Bullmastiff
+Lakeland Terrier
+Standard Schnauzer
+Cairn Terrier
+Leonberger
+Swedish Vallhund
+Canaan Dog
+Lhasa Apso
+Tibetan Spaniel
+Cardigan Welsh Corgi
+Lowchen
+Tibetan Terrier
+Cesky Terrier
+Maltese
+Welsh Springer Spaniel
+Chesapeake Bay Retriever
+Manchester Terrier Club
+Welsh Terrier
+Chihuahua
+Mastiff
+West Highland White Terrier
+Chinese Crested
+Miniature American Shepherd
+Whippet
+Chinese Shar-Pei
+Miniature Bull Terrier
+Wire Fox Terrier
+Chow Chow
+Miniature Schnauzer
+Xoloitzcuintli
+Cirneco dell’Etna
+Mudi
+Yakutian Laika
+Clumber Spaniel
+Nederlandse Kooikerhondje
+Yorkshire Terrier
