@@ -1,33 +1,30 @@
 import matplotlib
-matplotlib.use('PDF')
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import textwrap
 import numpy as np
 import os
 
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-
 def fetch_items(use_cache=True):
     # get the list of dog names
     # set use_cache to False to re-fetch and overwrite cached
     if use_cache & os.path.exists('breeds.txt'):
         items = np.loadtxt('breeds.txt', dtype='str', delimiter=',')
-    url = 'https://www.akc.org/sports/akc-meet-the-breeds/dog-breeds-attending/'
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'lxml')
-    html_table = soup.find('table')
+    else: # fetch the breed list from AKC website:
+        import requests
+        from bs4 import BeautifulSoup
+        url = 'https://www.akc.org/sports/akc-meet-the-breeds/dog-breeds-attending/'
+        page = requests.get(url)
+        soup = BeautifulSoup(page.text, 'lxml')
+        html_table = soup.find('table')
     
-    items = []
-    for i in html_table.find_all('tr'):
-        row_data = i.find_all('td')
-        for j in row_data:
-            items.append(j.text)
-    np.savetxt('breeds.txt', items, fmt='%s')
+        items = []
+        for i in html_table.find_all('tr'):
+            row_data = i.find_all('td')
+            for j in row_data:
+                items.append(j.text)
+        np.savetxt('breeds.txt', items, fmt='%s')
     return items
-    
 
 def make_card(filename):
     # generates a 5x5 bingo card and saves it under filename.
@@ -56,8 +53,6 @@ def make_card(filename):
                 verticalalignment='center', transform=ax.transAxes, fontsize=16)
         ax.set_xticks([])
         ax.set_yticks([])
-        
-                
 
     fig.savefig(filename)
     fig.clf()
@@ -71,11 +66,5 @@ def make_cards(n, base_name='bingo'):
     print("{0} bingo cards generated.".format(n))
     
 if __name__ == '__main__':
-    make_cards(1)
-    '''
-    make_card(filename='megan.png')
-    make_card(filename='lily.png)
-    make_card(filename='tim.png)
-    make_card(filename='lehman.png)
-    make_cards(3, base_name='jd')
-    '''
+    
+    make_card('bingo.png')
