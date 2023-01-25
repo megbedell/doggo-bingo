@@ -52,7 +52,7 @@ def make_card(filename):
             ax.set_yticks([])
             loc += 1
             ax = fig.add_subplot(5, 5, loc) 
-        ax.text(0.5, 0.5, textwrap.fill(text, width=12), horizontalalignment='center', \
+        ax.text(0.5, 0.5, textwrap.fill(text, width=14), horizontalalignment='center', \
                 verticalalignment='center', transform=ax.transAxes, fontsize=16)
         ax.set_xticks([])
         ax.set_yticks([])
