@@ -58,11 +58,11 @@ def make_card(filename,img_file='dog.png',margin=200,**kwargs):
     fig.savefig(filename)
     fig.clf()
 
-def make_cards(n, base_name='bingo'):
+def make_cards(n, base_name='bingo', **kwargs):
     # generates n cards.
     for i in range(n):
         filename = base_name+str(i+1)+'.png'
-        make_card(filename=filename)
+        make_card(filename=filename, **kwargs)
         
     print("{0} bingo cards generated.".format(n))
     
